@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lawrence Andrew Montaner</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #0d0d0d;
+    color: #e4e4e4;
+}
+
+header {
+    background: linear-gradient(135deg, #111, #1f1f1f);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    border-bottom: 1px solid #333;
+}
+
+header img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #4e73df;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: #1a1a1a;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+    transition: 0.3s;
+    border: 1px solid #2a2a2a;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #4e73df;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #4e73df;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.tag {
+    display: inline-block;
+    background: #111827;
+    color: #60a5fa;
+    padding: 6px 12px;
+    margin: 5px 5px 0 0;
+    border-radius: 20px;
+    font-size: 13px;
+    border: 1px solid #1f2937;
+    transition: 0.3s;
+}
+
+.tag:hover {
+    background: #4e73df;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #111;
+    color: #888;
+    margin-top: 20px;
+    border-top: 1px solid #333;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <img src="profile.jpg" alt="Profile Photo">
+    <h1>Lawrence Andrew Montaner</h1>
+    <p>BS Information Technology Student</p>
+    <p>Panacan, Vitarich • Davao City, 8000</p>
+    <p>lawrwncemontaner@gmail.com | 0909057108</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>🎓 Education</h2>
+        <ul>
+            <li><strong>Ateneo de Davao University</strong><br>
+            BS Information Technology (2nd Year)</li>
+
+            <li><strong>Jose Maria College INC.</strong><br>
+            ABM Strand<br>
+            Graduation: June 21, 2024</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>💡 Skills</h2>
+        <div>
+            <span class="tag">Java</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">React</span>
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Problem Solving</span>
+            <span class="tag">UI Design</span>
+            <span class="tag">Teamwork</span>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>🚀 Projects</h2>
+        <ul>
+            <li><strong>HTML Website</strong> - Web Systems and Technologies</li>
+            <li><strong>Library System (C++)</strong> - Computer Programming 1</li>
+            <li><strong>Sorting Algorithms</strong> - Data Structures and Algorithms</li>
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Lawrence Andrew Montaner</p>
+</footer>
+
+</body>
+</html>
